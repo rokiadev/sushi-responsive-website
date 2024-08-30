@@ -233,6 +233,7 @@ body.dark-theme {
       box-shadow: 0 8px 20px hsla(19, 64%, 24%, .1);
       padding-block: 3.5rem;
       transition: top .4s;
+      overflow: hidden;
   }
 }
 .nav-list {
@@ -267,8 +268,8 @@ body.dark-theme {
 .nav-img-2 {
   width: 60px;
   right: 0;
-  bottom: 1rem;
-  transform: rotate(30deg);
+  bottom: 0;
+  transform: rotate(-30deg);
 }
 
 /* Show menu */
@@ -470,7 +471,7 @@ body.dark-theme {
   width: 30px;
   position: absolute;
   top: 3rem;
-  right: 5rem;
+  right: 3rem;
   transform: rotate(30deg);
 }
 .recently-img {
